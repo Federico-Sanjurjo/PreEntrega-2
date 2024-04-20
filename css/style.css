@@ -1,21 +1,46 @@
 /* Resetear márgenes y rellenos a cero en todos los elementos */
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    border: none;
-    outline: none;
-  }
-    p{
-    color: whitesmoke;
-    text-shadow: black 0 0 0;
-    font-size:medium;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    background: rgba(0, 0,0,.5);
-    text-align: center;
-  }
- .card-text{
-    margin-bottom: 2rem;
-  }
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-text,
+.navbar-brand,
+.navbar-link {
+  color: white !important;
+}
+
+.ddm-bg:hover {
+  background-color: rgba(112, 110, 110, 0.747) !important;
+  margin: 0;
+}
+.dropdown-menu{
+  background-color: rgba(0, 0, 0, 0.747) !important;
+}
+
+.navbar-logo {
+  flex-wrap: wrap;
+  width: 2rem;
+}
+
+p {
+  color: whitesmoke;
+  text-shadow: black 0 0 0;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  background: rgba(0, 0, 0, .5);
+  text-align: center;
+}
+
+.card-text {
+  margin-bottom: 2rem;
+}
