@@ -80,3 +80,18 @@ p.banner{
       clip-path: inset(0% 0% 0% 0% round var(--border-radius));
     }
 }
+
+div.iframe-cd{
+  background-color: rgba(45, 87, 35, 0.992);
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+}
+
+iframe.cd{
+  padding-left: 15px;
+  padding-right: 15px;
+}
