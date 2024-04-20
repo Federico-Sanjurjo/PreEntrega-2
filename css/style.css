@@ -95,3 +95,15 @@ iframe.cd{
   padding-left: 15px;
   padding-right: 15px;
 }
+
+div.col{
+  width: 250px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+div.showdiv{
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
