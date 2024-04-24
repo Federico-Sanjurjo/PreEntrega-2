@@ -26,6 +26,12 @@
   background-color: rgba(0, 0, 0, 0.747) !important;
 }
 
+.h2-index{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
 .navbar-logo {
   flex-wrap: wrap;
   width: 2rem;
@@ -34,6 +40,10 @@
 img.banner{
   width: 100dvw;
   display: flexbox;
+}
+
+.card-wrap{
+  column-gap: 20px;
 }
 
 p {
